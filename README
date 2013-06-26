@@ -1,0 +1,37 @@
+=====================================================================
+
+APC Rock Software v1.0.0
+- http://apc.io
+- help@apc.io
+
+=====================================================================
+
+
+BEFORE YOU DO ANYTHING — MAKE A BACKUP
+
+Don't forget to back up your data. Installing this software will
+completely restore APC to the default, factory configuration. 
+
+If you have synced APC with a Google account, then the contacts, 
+calendar, Gmail, & select other Google-related data will not be 
+lost and will come back after the next sync. However, you should 
+backup anything you want to keep:
+
+	- Bookmarks
+	- Applications (use Titanium Backup or the Astro File Manager)
+	- Any data on your existing microSD card. 
+
+
+INSTALLATION
+
+1. Copy contents of entire contents of this folder onto
+   a blank microSD card (don't use you the same card that 
+   you store your data on)
+
+2. Place microSD into APC
+
+3. Restart APC, installation will begin automatically
+
+4. Upon completion, remove microSD card and restart
+
+
