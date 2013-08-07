@@ -845,11 +845,11 @@ render_main ()
 	set_font_color 255 255 255
 
 	if [ "${os}" == "Linux" ]; then
-		drawstr `fsmul 2` `bsmul 1`  "APC Rock Software Installation"
+		drawstr `fsmul 2` `bsmul 1`  "APC Software Installation"
 		drawstr `fsmul 2` `bsmul 2`  `getvers_b _Linux_`
 		drawstr `fsmul 2` `bsmul 4`  "----------------------------------"
 	else
-		drawstr `fsmul 2` `bsmul 1`  "APC Rock Software Installation"
+		drawstr `fsmul 2` `bsmul 1`  "APC Software Installation"
 		drawstr `fsmul 2` `bsmul 2`  `getvers_b _Android_`
 		drawstr `fsmul 2` `bsmul 4`  "------------------------------------"
 	fi
