@@ -1,21 +1,21 @@
 =====================================================================
 
-APC Rock Software v1.0.0
+APC Rock Software v1.01.02
 - http://apc.io
 - help@apc.io
 
 =====================================================================
 
 
-BEFORE YOU DO ANYTHING — MAKE A BACKUP
+BEFORE YOU DO ANYTHING ??MAKE A BACKUP
 
 Don't forget to back up your data. Installing this software will
 completely restore APC to the default, factory configuration. 
 
 If you have synced APC with a Google account, then the contacts, 
 calendar, Gmail, & select other Google-related data will not be 
-lost and will come back after the next sync. However, you should 
-backup anything you want to keep:
+lost, these will be restored after the next sync. However, you should 
+backup anything you want to keep including:
 
 	- Bookmarks
 	- Applications (use Titanium Backup or the Astro File Manager)
@@ -24,7 +24,7 @@ backup anything you want to keep:
 
 INSTALLATION
 
-1. Copy contents of entire contents of this folder onto
+1. Copy entire contents of this folder onto
    a blank microSD card (don't use you the same card that 
    you store your data on)
 
@@ -33,5 +33,40 @@ INSTALLATION
 3. Restart APC, installation will begin automatically
 
 4. Upon completion, remove microSD card and restart
+
+
+*Note: 	If you use a VGA connection while updating your APC, your screen will not display the correct information
+	making it hard to tell when the system flash is completed. To finish your flash, wait 5 minutes form the time
+	you start your update, remove the MicroSD card then restart. This issue will not occur if using an HDMI connection.
+
+
+Change logs:
+---------------------------------
+1.	Add CIR remote control support by uboot parameter.
+2.	Add choose display mode, resolution, EDID in settings.
+3.	Add set default time zone in Taipei.
+4.	Fix 1920x1080 resolution.
+5.	Fix installing percentage error.
+6.	Fix notification volume in Settings.
+7.  Fix VGA brightness over saturation.
+8.	Update display information 
+9.	Update power control in system bar.
+10.	Update system bar to bottom.
+11.	Change Rotation behavior in Settings.
+12.	Change default widgets.
+13.	Change File Browser APK.
+14.	Change Android APC logo.
+15.	Remove Voice search in Browser.
+16.	Remove QuickSearchBox setting in CorpusSelectionDialog.
+
+
+
+Know issues:
+------------------------------------------------
+1.	Mouse pointer does not smoothly with VGA connection with display monitor setting in Auto.
+Solution: Change monitor setting to VGA in Android Settings(Re-boot of system is needed).
+2.	USB UVC 1.0 compliant web camera is not supporting hot plug, does not support some high resolution cameras.
+Solution: Connect USB web cam before powering on your APC.
+
 
 
