@@ -851,9 +851,10 @@ render_main ()
 		drawstr `fsmul 2` `bsmul 4`  "----------------------------------"
 	else
 		drawstr `fsmul 2` `bsmul 1`  "APC System Software Installation"
-		drawstr `fsmul 2` `bsmul 2`  `getvers_b _Android_`
-		drawstr `fsmul 2` `bsmul 4`  "------------------------------------"
-		drawstr `fsmul 2` `bsmul 16` "DO NOT POWER OFF"
+		# drawstr `fsmul 2` `bsmul 2`  `getvers_b _Android_`
+		drawstr `fsmul 2` `bsmul 2`  "APC8950 Firefox Revision V1.0"
+		drawstr `fsmul 2` `bsmul 4`  "----------------------------------"
+		drawstr `fsmul 2` `bsmul 16`  "DO NOT POWER OFF!"
 	fi
 
 	drawstr `fsmul 4` `bsmul 6`  `getvers_a W-Load`" ->"`getvers_b W-Load`
@@ -862,7 +863,7 @@ render_main ()
 	drawstr `fsmul 4` `bsmul 9`  `getvers_b Base`
 	drawstr `fsmul 4` `bsmul 10` `getvers_b Reference`
 	drawstr `fsmul 4` `bsmul 11` `getvers_b OtherInfo`
-	
+
 	show_progress_bar `fsmul 4` `bsmul 13` `fsmul 15` `fsmul 1` 0
 	# show_warnings_by_ticker
 }
@@ -871,14 +872,11 @@ bspinst_start ()
 {
 	rpc_start
 	render_main
-	
 }
 
 bspinst_stop ()
 {
-	msg "Now remove the microSD card"
-
-  
+	msg "Please remove installation media!"
 
 	# Wait until storage unplugged or ENTER pressed
 
