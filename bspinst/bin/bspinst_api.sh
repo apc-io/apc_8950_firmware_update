@@ -852,7 +852,7 @@ render_main ()
 	else
 		drawstr `fsmul 2` `bsmul 1`  "APC System Software Installation"
 		# drawstr `fsmul 2` `bsmul 2`  `getvers_b _Android_`
-		drawstr `fsmul 2` `bsmul 2`  "APC8950 Firefox Revision V1.0"
+		drawstr `fsmul 2` `bsmul 2`  "APC8950 Firefox Version V1.0"
 		drawstr `fsmul 2` `bsmul 4`  "----------------------------------"
 		drawstr `fsmul 2` `bsmul 16`  "DO NOT POWER OFF!"
 	fi
